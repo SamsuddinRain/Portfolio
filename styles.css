@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    background-color: black; /* Optional: Background color */
+    padding: 20px 0; /* Optional: Padding for spacing */
+}
+
+/* Style for the navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Horizontally center the list items */
+    gap: 20px; /* Space between the list items */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the individual links */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+
+.hero {
+    background: linear-gradient(45deg, #33ccff, #ff99cc);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+
+}
+
+.hero p {
+    font-size: 48px;
+    margin-bottom: 10px;
+
+}
+.hero .subtitle {
+    font-size: 18px;
+    color: #666;
+    font-weight: normal;
+}
+
+
+.hero img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
